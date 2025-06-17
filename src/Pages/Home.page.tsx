@@ -154,6 +154,9 @@ const Home = () => {
           <h4 className="subtitle text-gray-900 dark:text-gray-100">
             here you can find business cards from all categories
           </h4>
+          <h4 className=" subtitle   text-gray-900 dark:text-gray-100">
+          *To see more details about the ticket, click on it.
+          </h4>
         </div>
         <hr id="line" className="border-gray-200 dark:border-gray-700" />
 

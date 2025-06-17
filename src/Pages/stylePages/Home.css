@@ -17,6 +17,7 @@
         font-weight: bold;
         text-align: center;
 }   
+
 }
 .cardContainer:hover .img_card{
     transform: scale(1.05);
