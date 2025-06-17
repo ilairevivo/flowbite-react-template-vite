@@ -3,3 +3,76 @@
 @source "../.flowbite-react/class-list.json";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+#logo {
+    font-family: "Boldonse", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.title {
+
+    font-weight: 100;
+    font-style: normal;
+    font-size: 5.5rem;
+}
+
+.subtitle {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+#line {
+    width: 95%;
+    height: 3px;
+    background-color: #504f4f;
+    border-radius: 10q;
+    margin-top: 30px !important;
+    margin: auto;
+}
+
+.description {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: -15px !important;
+}
+
+.hrCard {
+    width: 99%;
+    height: 2px;
+    background-color: #dedddd;
+    border-radius: 10q;
+    margin-top: 0px !important;
+    margin: auto;
+    margin-bottom: 10px !important;
+    border: none;
+}
+
+.pCard {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: -12px !important;
+}
+
+.spanCard1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: -15px !important;
+}
+
+.spanCard2 {
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.iconCard {
+
+    margin-top: 10px !important;
+}
