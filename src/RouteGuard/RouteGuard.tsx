@@ -22,5 +22,5 @@ const RouteGuard = (props: RouteGuardProps) => {
         return <Navigate to="/home" />;
     }
   return <>{children}</>;
-};
+  };
 export default RouteGuard;
