@@ -1,6 +1,5 @@
 import Joi from "joi";
 
-// the messages nided to be in english 
 export const createCardSchema = Joi.object({
   title: Joi.string().min(2).max(256).required().messages({
     "string.min": "name must be at least 2 characters long",
