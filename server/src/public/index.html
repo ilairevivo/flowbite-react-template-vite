@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Business Cards App</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <div id="app">
+        <header>
+            <h1>Business Cards Application</h1>
+            <nav>
+                <button onclick="showLogin()">login</button>
+                <button onclick="showRegister()">register</button>
+                <button onclick="showCards()">cards</button>
+            </nav>
+        </header>
+
+        <main id="content">
+            <h2>Welcome!</h2>
+            <p> this is a business cards application</p>
+        </main>
+
+        <div id="loginForm" style="display:none;">
+            <h2>login</h2>
+            <form onsubmit="login(event)">
+                <input type="email" id="email" placeholder="אימייל" required>
+                <input type="password" id="password" placeholder="סיסמה" required>
+                <button type="submit">login</button>
+            </form>
+        </div>
+
+        <div id="cardsContainer" style="display:none;">
+            <h2>Business Cards</h2>
+            <div id="cardsList"></div>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
 </body>
+
 </html>
